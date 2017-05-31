@@ -1,18 +1,30 @@
 <DOCSTYLE html>
     <html>
         <center>
-        <Header>
+        <Head>
             <Title>Millenium - Backstreet Boys</Title>
-        </Header>
+            <link href="albumstyles.css" rel="stylesheet" type="text/css">
+            <style>
+                li {
+                    font-weight:bold;
+                }
+                #pagetitle {
+                    font-size:20pt;
+                }
+            </style>
+        </Head>
+
             <img src="https://upload.wikimedia.org/wikipedia/en/f/f5/Millennium_cover.jpg" 
-             alt="Image of Album Cover"><br/>
-                Millenium<br/>
+             alt="Image of Album Cover" style="border:solid 10px blue;" ><br/>
+                <p id="pagetitle" style="font-weight:bold;">Millenium</p><br/>
                 <a href="https://www.backstreetboys.com/">Backstreet Boys</a><br/>
                 May 18, 1991<br/>
                 <hr/>
         </center>
         <Body>
-            <center>Band Members and Producers</center>
+            
+            <h3>Band Members and Producers</h3>
+            <div class="members">
             <ul>
                 <li>Nick Carter - Vocals</li>               
                 <li>AJ McLean - Vocals</li> 
@@ -21,9 +33,10 @@
                 <li>Brian Littrell - Vocals</li>
                 <li>Timmy Allen - Producer</li>
             </ul>
+            </div>
          
-            <center><table border="1" width="75%"></center>
-                <caption>Tracks</caption>
+            <center><table border="1;" width="75%"></center>
+                <caption style="color:blue;">Tracks</caption>
                 <thead>
                     <tr>
                     <th>Track #</th>
@@ -34,17 +47,17 @@
                 <tbody>
                     <tr>
                     <td>1</td>
-                    <td>Larger Than Life</td>
+                    <td id="title">Larger Than Life</td>
                     <td>3:52</td>
                     </tr>
                     <tr>
                     <td>2</td>
-                    <td>I Want It That Way</td>
+                    <td id="title">I Want It That Way</td>
                     <td>3:33</td>
                     </tr>
                     <tr>
                     <td>3</td>
-                    <td>Show Me The Meaning of Being Lonely</td>
+                    <td id="title">Show Me The Meaning of Being Lonely</td>
                     <td>3:54</td>
                     </tr>
                

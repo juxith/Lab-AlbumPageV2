@@ -1,0 +1,41 @@
+
+body {
+    background-color: lightskyblue;
+}
+
+th {
+    color:darkblue;
+}
+
+.members {
+    font-style:italic;
+}
+
+#title {
+    font-style:italic;
+    text-align:center;
+}
+
+hr {
+    border-top: 5px dashed royalblue;
+}
+
+h3 {
+    text-align:center;
+    text-transform:uppercase;
+}
+
+table {
+    border: 2px solid;
+    text-align:center;
+}
+
+caption {
+    margin-bottom:5px;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-weight:bold;
+}
+
+
+
