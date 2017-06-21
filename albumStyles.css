@@ -9,6 +9,7 @@ th {
 
 .members {
     font-style:italic;
+    font-family: 'Comic Sans MS';
 }
 
 #title {
@@ -36,6 +37,22 @@ caption {
     letter-spacing: 2px;
     font-weight:bold;
 }
+
+.albumImage {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/f/f5/Millennium_cover.jpg"); 
+    background-size: 300px;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 300px;
+    background-position: center;
+
+}
+
+#pagetitle {
+    font-family: 'Comic Sans MS';
+}
+
+             
 
 
 
