@@ -1,4 +1,18 @@
 
+a {
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: lightgrey;
+}
+
+td {
+    font-style: italic;
+    text-align: center;
+}
+
 body {
     background-color: lightskyblue;
 }
@@ -29,6 +43,7 @@ h3 {
 table {
     border: 2px solid;
     text-align:center;
+    background-color: lightgrey;
 }
 
 caption {
